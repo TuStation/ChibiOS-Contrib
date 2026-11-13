@@ -3,7 +3,8 @@
 
 PLATFORMSRC_CONTRIB := \
     $(CHIBIOS)/os/hal/ports/common/ARMCMx/nvic.c \
-    $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/CH32F20x/hal_lld.c
+    $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/CH32F20x/hal_lld.c \
+    $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/CH32F20x/hal_efl_lld.c
 
 PLATFORMINC_CONTRIB := \
     $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/CH32F20x \
