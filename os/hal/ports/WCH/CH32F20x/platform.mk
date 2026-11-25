@@ -25,6 +25,7 @@ endif
 
 include $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/LLD/GPIOv1/driver.mk
 include $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/LLD/SYSTICKv1/driver.mk
+include $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/LLD/TIMv1/driver.mk
 include $(CHIBIOS_CONTRIB)/os/hal/ports/WCH/LLD/USBv1/driver.mk
 
 ALLCSRC += $(PLATFORMSRC_CONTRIB)
